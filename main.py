@@ -11,8 +11,9 @@ from traslate_csv_to_sheets import sync_inventory_to_sheets
 
 # Definir todos los campos esperados por los scrapers
 FIELDS = [
-    "vin", "stock_num", "year", "make", "model", "trim", "drive",
-    "odometer", "color_exterior", "color_interior", "sale_price","location_dealership", "url",
+    "vin", "stock_num", "year", "make", "model", "trim",
+    "drive", "odometer", "color_exterior", "color_interior",
+    "sale_price", "location_dealership", "url",
     "first_date_seen", "last_date_seen", "days_in_stock"
 ]
 

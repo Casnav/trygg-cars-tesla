@@ -50,12 +50,12 @@ def collect_listing_data(driver) -> list:
             "make"           : None,
             "model"          : None,
             "trim"           : None,
-            "Drive"          : None,
+            "drive"          : None,
             "odometer"       : None,
             "color_exterior" : None,
             "color_interior" : None,
             "sale_price"     : None,
-            "Location_dealership" : None,
+            "location_dealership" : None,
             "url"            : None,
         }
         try:

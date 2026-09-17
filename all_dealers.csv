@@ -1,44 +1,47 @@
-vin,stock_num,year,make,model,trim,odometer,color_exterior,color_interior,sale_price,url,first_date_seen,last_date_seen
-5YJYGDEE5MF095303,MF095303,2021,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive,150064,Red Multi-Coat,Black,19999,https://pmrauto.com/vehicles/2021-tesla-model-y/,,Available
-5YJ3E1EB3LF795534,LF795534,2020,Tesla,Model 3,Long Range Dual Motor All-Wheel Drive,56712,Pearl White Multi-Coat,Black,24999,https://pmrauto.com/vehicles/2020-tesla-model-3-2/,,Available
-5YJ3E1EC8LF603078,LF603078,2020,Tesla,Model 3,Performance Dual Motor All-Wheel Drive,127828,Red Multi-Coat,Black,18999,https://pmrauto.com/vehicles/2020-tesla-model-3-3/,,Available
-7SAYGAEE3PF684145,PF684145,2023,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive | AWD,26097,Midnight Silver Metallic,White/Black,34999,https://pmrauto.com/vehicles/2023-tesla-model-y-2/,,Available
-7SAYGDEF0NF348413,NF348413,2022,Tesla,Model Y,Performance Dual Motor All-Wheel Drive,145075,Deep Blue Metallic,White/Black,21999,https://pmrauto.com/vehicles/2022-tesla-model-y-3/,,Available
-5YJ3E1EB6LF589107,LF589107,2020,Tesla,Model 3,Long Range Dual Motor All-Wheel Drive,106955,Pearl White Multi-Coat,Black,20999,https://pmrauto.com/vehicles/2020-tesla-model-3/,,Available
-5YJ3E1EB1NF175817,NF175817,2022,Tesla,Model 3,Long Range Dual Motor All-Wheel Drive,75188,Pearl White Multi-Coat,White/Black,24999,https://pmrauto.com/vehicles/2022-tesla-model-3-2/,,Available
-5YJXCAE46JF091284,JF091284,2018,Tesla,Model X,P100D,87836,Midnight Silver Metallic,"Black, leather",27999,https://pmrauto.com/vehicles/2018-tesla-model-x/,,Available
-7SAYGDEE4PF800776,PF800776,2023,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive | AWD,84580,Pearl White Multi-Coat,White/Black,27999,https://pmrauto.com/vehicles/2023-tesla-model-y-3/,,Available
-7SAYGDEEXNF442497,NF442497,2022,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive,120653,,Black,22999,https://pmrauto.com/vehicles/2022-tesla-model-y-5/,,Available
-5YJXCBE29LF281510,LF281510,2020,Tesla,Model X,Long Range Dual Motor All-Wheel Drive | Long Range Plus Dual Motor All-Whee,83337,Midnight Silver Metallic,White/Black,29999,https://pmrauto.com/vehicles/2020-tesla-model-x-4/,,Available
-5YJXCBE2XLF232042,LF232042,2020,Tesla,Model X,Long Range Dual Motor All-Wheel Drive | Long Range Plus Dual Motor All-Whee,117875,Red Multi-Coat,White,26999,https://pmrauto.com/vehicles/2020-tesla-model-x/,,Available
-7SAYGDEE8PF948011,PF948011,2023,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive | AWD,124979,Solid Black,Black,24999,https://pmrauto.com/vehicles/2023-tesla-model-y-5/,,Available
-5YJXCDE24MF325345,MF325345,2021,Tesla,Model X,Long Range Plus Dual Motor All-Wheel Drive | Long Range Dual Motor All-Whee,73145,Pearl White Multi-Coat,Black,32999,https://pmrauto.com/vehicles/2021-tesla-model-x/,,Available
-7SAYGDEE9NF573159,NF573159,2022,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive,114975,Midnight Silver Metallic,Black,22999,https://pmrauto.com/vehicles/2022-tesla-model-y/,,Available
-5YJ3E1EA4KF425859,KF425859,2019,Tesla,Model 3,Standard Range Plus,149927,Deep Blue Metallic,Black,13999,https://pmrauto.com/vehicles/2019-tesla-model-3-2/,,Available
-7SAYGDEE9NF510319,NF510319,2022,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive,19520,Pearl White Multi-Coat,Black,27999,https://pmrauto.com/vehicles/2022-tesla-model-y-2/,,Available
-7SAYGDEE5TF328937,TF328937,2026,Tesla,Model Y,Long Range Launch Series,46719,Pearl White Multi-Coat,Black,42999,https://pmrauto.com/vehicles/2026-tesla-model-y/,,Available
-7SAYGAEE2RF084932,RF084932,2024,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive,50069,Solid Black,Black,33999,https://pmrauto.com/vehicles/2024-tesla-model-y/,,Available
-5YJXCBE25LF242011,LF242011,2020,Tesla,Model X,Long Range Dual Motor All-Wheel Drive,73398,Pearl White Multi-Coat,Black,32999,https://pmrauto.com/vehicles/2020-tesla-model-x-2/,,Available
-7SAYGDEE4PF887319,PF887319,2023,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive | AWD,41026,Solid Black,Black,31999,https://pmrauto.com/vehicles/2023-tesla-model-y-4/,,Available
-7SAYGDEE1PF922656,PF922656,2023,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive | AWD,77165,Solid Black,Black,28999,https://pmrauto.com/vehicles/2023-tesla-model-y/,,Available
-5YJYGDEE0MF295747,MF295747,2021,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive,122179,Red Multi-Coat,Black,22999,https://pmrauto.com/vehicles/2021-tesla-model-y-2/,,Available
-5YJ3E1EB2NF221543,NF221543,2022,Tesla,Model 3,Long Range Dual Motor All-Wheel Drive,112037,Solid Black,Black,21999,https://pmrauto.com/vehicles/2022-tesla-model-3/,,Available
-5YJ3E1EA1JF050124,JF050124,2018,Tesla,Model 3,Long Range,176150,Silver Metallic,Black,13999,https://pmrauto.com/vehicles/2018-tesla-model-3-2/,,Available
-5YJ3E1EB0LF800995,11846,2020,Tesla,Model 3,Long Range,51481,White,Interior Color: Black,26990.00,https://drivecoolcars.com/vdp/24225511/Used-2020-Tesla-Model-3-Long-Range-for-sale-in-Draper-UT-84020,,Available
-5YJ3E1EB7LF628044,11755,2020,Tesla,Model 3,Long Range,103491,White,Interior Color: Black,19990.00,https://drivecoolcars.com/vdp/24103167/Used-2020-Tesla-Model-3-Long-Range-for-sale-in-Draper-UT-84020,,Available
-5YJ3E1EB8MF876756,11823,2021,Tesla,Model 3,Long Range,47484,Black,Interior Color: Black,26990.00,https://drivecoolcars.com/vdp/24265683/Used-2021-Tesla-Model-3-Long-Range-for-sale-in-Draper-UT-84020,,Available
-5YJ3E1EBXRF729622,11767,2024,Tesla,Model 3,,16660,Gray,Interior Color: Black,38990.00,https://drivecoolcars.com/vdp/24009776/Used-2024-Tesla-Model-3-for-sale-in-Draper-UT-84020,,Available
-5YJSA1E21JF287101,11844,2018,Tesla,Model S,100D,112215,Black,Interior Color: CREAM,29990.00,https://drivecoolcars.com/vdp/24265684/Used-2018-Tesla-Model-S-100D-for-sale-in-Draper-UT-84020,,Available
-5YJXCBE26JF141668,11805,2018,Tesla,Model X,100D,94607,White,Interior Color: CREAM,29990.00,https://drivecoolcars.com/vdp/24113307/Used-2018-Tesla-Model-X-100D-for-sale-in-Draper-UT-84020,,Available
-7SAYGDEE2NF364734,11818,2022,Tesla,Model Y,Long Range,85744,Gray,Interior Color: Black,27990.00,https://drivecoolcars.com/vdp/24157178/Used-2022-Tesla-Model-Y-Long-Range-for-sale-in-Draper-UT-84020,,Available
-7SAYGDEE8PA078032,11369,2023,Tesla,Model Y,,38096,White,Interior Color: Black,33490.00,https://drivecoolcars.com/vdp/22671416/Used-2023-Tesla-Model-Y-for-sale-in-Draper-UT-84020,,Available
-7SAYGAEE3PF807152,11826,2023,Tesla,Model Y,Long Range AWD,39926,Gray,Interior Color: Black,36990.00,https://drivecoolcars.com/vdp/24265693/Used-2023-Tesla-Model-Y-Long-Range-AWD-for-sale-in-Draper-UT-84020,,Available
-7SAYGDEF5PF754352,11811,2023,Tesla,Model Y,Performance,36277,Blue,Interior Color: Black,37990.00,https://drivecoolcars.com/vdp/24084523/Used-2023-Tesla-Model-Y-Performance-for-sale-in-Draper-UT-84020,,Available
-7SAYGAEE8PF823539,11841,2023,Tesla,Model Y,Long Range AWD,31427,White,Interior Color: Black,37990.00,https://drivecoolcars.com/vdp/24265688/Used-2023-Tesla-Model-Y-Long-Range-AWD-for-sale-in-Draper-UT-84020,,Available
-7SAYGDEE7PF672095,11802,2023,Tesla,Model Y,Long Range,37567,White,Interior Color: White,35490.00,https://drivecoolcars.com/vdp/24088489/Used-2023-Tesla-Model-Y-Long-Range-for-sale-in-Draper-UT-84020,,Available
-7SAYGAEE5PF881866,11855,2023,Tesla,Model Y,Long Range AWD,27742,Red,Interior Color: White,37990.00,https://drivecoolcars.com/vdp/24265692/Used-2023-Tesla-Model-Y-Long-Range-AWD-for-sale-in-Draper-UT-84020,,Available
-7SAYGDEEXPF828856,11822,2023,Tesla,Model Y,Long Range,47539,Gray,Interior Color: Black,34990.00,https://drivecoolcars.com/vdp/24206079/Used-2023-Tesla-Model-Y-Long-Range-for-sale-in-Draper-UT-84020,,Available
-7SAYGDEE6PF813139,11804,2023,Tesla,Model Y,,34734,Black,Interior Color: Black,35490.00,https://drivecoolcars.com/vdp/24080624/Used-2023-Tesla-Model-Y-for-sale-in-Draper-UT-84020,,Available
-7SAYGAEE5PF908970,11835,2023,Tesla,Model Y,Long Range AWD,30054,Gray,Interior Color: Black,37990.00,https://drivecoolcars.com/vdp/24265691/Used-2023-Tesla-Model-Y-Long-Range-AWD-for-sale-in-Draper-UT-84020,,Available
-7SAYGAEE4RF155693,11836,2024,Tesla,Model Y,Long Range AWD,34258,White,Interior Color: White,39990.00,https://drivecoolcars.com/vdp/24265690/Used-2024-Tesla-Model-Y-Long-Range-AWD-for-sale-in-Draper-UT-84020,,Available
-7SAYGDEE8SA351897,11847,2025,Tesla,Model Y,Long Range,28296,Gray,Interior Color: Black,40990.00,https://drivecoolcars.com/vdp/24274124/Used-2025-Tesla-Model-Y-Long-Range-for-sale-in-Draper-UT-84020,,Available
+vin,stock_num,year,make,model,trim,drive,odometer,color_exterior,color_interior,sale_price,url,first_date_seen,last_date_seen,days_in_stock
+5YJYGDEE5MF095303,MF095303,2021,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive,,150064,Red Multi-Coat,Black,19999,https://pmrauto.com/vehicles/2021-tesla-model-y/,,Available,
+5YJ3E1EB3LF795534,LF795534,2020,Tesla,Model 3,Long Range Dual Motor All-Wheel Drive,,56712,Pearl White Multi-Coat,Black,24999,https://pmrauto.com/vehicles/2020-tesla-model-3-2/,,2026-09-17,
+5YJ3E1EC8LF603078,LF603078,2020,Tesla,Model 3,Performance Dual Motor All-Wheel Drive,,127828,Red Multi-Coat,Black,18999,https://pmrauto.com/vehicles/2020-tesla-model-3-3/,,Available,
+7SAYGAEE3PF684145,PF684145,2023,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive | AWD,,26097,Midnight Silver Metallic,White/Black,34999,https://pmrauto.com/vehicles/2023-tesla-model-y-2/,,Available,
+7SAYGDEF0NF348413,NF348413,2022,Tesla,Model Y,Performance Dual Motor All-Wheel Drive,,145075,Deep Blue Metallic,White/Black,21999,https://pmrauto.com/vehicles/2022-tesla-model-y-3/,,Available,
+5YJ3E1EB6LF589107,LF589107,2020,Tesla,Model 3,Long Range Dual Motor All-Wheel Drive,,106955,Pearl White Multi-Coat,Black,20999,https://pmrauto.com/vehicles/2020-tesla-model-3/,,Available,
+5YJ3E1EB1NF175817,NF175817,2022,Tesla,Model 3,Long Range Dual Motor All-Wheel Drive,,75188,Pearl White Multi-Coat,White/Black,24999,https://pmrauto.com/vehicles/2022-tesla-model-3-2/,,Available,
+5YJXCAE46JF091284,JF091284,2018,Tesla,Model X,P100D,,87836,Midnight Silver Metallic,"Black, leather",27999,https://pmrauto.com/vehicles/2018-tesla-model-x/,,Available,
+7SAYGDEE4PF800776,PF800776,2023,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive | AWD,,84580,Pearl White Multi-Coat,White/Black,27999,https://pmrauto.com/vehicles/2023-tesla-model-y-3/,,Available,
+7SAYGDEEXNF442497,NF442497,2022,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive,,120653,Pearl White Multi-Coat,Black,22999,https://pmrauto.com/vehicles/2022-tesla-model-y-5/,,Available,
+5YJXCBE29LF281510,LF281510,2020,Tesla,Model X,Long Range Dual Motor All-Wheel Drive | Long Range Plus Dual Motor All-Whee,,83337,Midnight Silver Metallic,White/Black,29999,https://pmrauto.com/vehicles/2020-tesla-model-x-4/,,Available,
+5YJXCBE2XLF232042,LF232042,2020,Tesla,Model X,Long Range Dual Motor All-Wheel Drive | Long Range Plus Dual Motor All-Whee,,117875,Red Multi-Coat,White,26999,https://pmrauto.com/vehicles/2020-tesla-model-x/,,Available,
+7SAYGDEE8PF948011,PF948011,2023,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive | AWD,,124979,Solid Black,Black,24999,https://pmrauto.com/vehicles/2023-tesla-model-y-5/,,Available,
+5YJXCDE24MF325345,MF325345,2021,Tesla,Model X,Long Range Plus Dual Motor All-Wheel Drive | Long Range Dual Motor All-Whee,,73145,Pearl White Multi-Coat,Black,32999,https://pmrauto.com/vehicles/2021-tesla-model-x/,,Available,
+7SAYGDEE9NF573159,NF573159,2022,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive,,114975,Midnight Silver Metallic,Black,22999,https://pmrauto.com/vehicles/2022-tesla-model-y/,,Available,
+5YJ3E1EA4KF425859,KF425859,2019,Tesla,Model 3,Standard Range Plus,,149927,Deep Blue Metallic,Black,13999,https://pmrauto.com/vehicles/2019-tesla-model-3-2/,,Available,
+7SAYGDEE9NF510319,NF510319,2022,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive,,19520,Pearl White Multi-Coat,Black,27999,https://pmrauto.com/vehicles/2022-tesla-model-y-2/,,2026-09-17,
+7SAYGDEE5TF328937,TF328937,2026,Tesla,Model Y,Long Range Launch Series,,46719,Pearl White Multi-Coat,Black,42999,https://pmrauto.com/vehicles/2026-tesla-model-y/,,Available,
+7SAYGAEE2RF084932,RF084932,2024,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive,,50069,Solid Black,Black,33999,https://pmrauto.com/vehicles/2024-tesla-model-y/,,Available,
+5YJXCBE25LF242011,LF242011,2020,Tesla,Model X,Long Range Dual Motor All-Wheel Drive,,73398,Pearl White Multi-Coat,Black,32999,https://pmrauto.com/vehicles/2020-tesla-model-x-2/,,Available,
+7SAYGDEE4PF887319,PF887319,2023,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive | AWD,,41026,Solid Black,Black,31999,https://pmrauto.com/vehicles/2023-tesla-model-y-4/,,Available,
+7SAYGDEE1PF922656,PF922656,2023,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive | AWD,,77165,Solid Black,Black,28999,https://pmrauto.com/vehicles/2023-tesla-model-y/,,Available,
+5YJYGDEE0MF295747,MF295747,2021,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive,,122179,Red Multi-Coat,Black,22999,https://pmrauto.com/vehicles/2021-tesla-model-y-2/,,Available,
+5YJ3E1EB2NF221543,NF221543,2022,Tesla,Model 3,Long Range Dual Motor All-Wheel Drive,,112037,Solid Black,Black,21999,https://pmrauto.com/vehicles/2022-tesla-model-3/,,Available,
+5YJ3E1EA1JF050124,JF050124,2018,Tesla,Model 3,Long Range,,176150,Silver Metallic,Black,13999,https://pmrauto.com/vehicles/2018-tesla-model-3-2/,,Available,
+5YJ3E1EB0LF800995,11846,2020,Tesla,Model 3,Long Range,,51481,White,Interior Color: Black,26990,https://drivecoolcars.com/vdp/24225511/Used-2020-Tesla-Model-3-Long-Range-for-sale-in-Draper-UT-84020,,Available,
+5YJ3E1EB7LF628044,11755,2020,Tesla,Model 3,Long Range,,103491,White,Interior Color: Black,19990,https://drivecoolcars.com/vdp/24103167/Used-2020-Tesla-Model-3-Long-Range-for-sale-in-Draper-UT-84020,,Available,
+5YJ3E1EB8MF876756,11823,2021,Tesla,Model 3,Long Range,,47484,Black,Interior Color: Black,26990,https://drivecoolcars.com/vdp/24265683/Used-2021-Tesla-Model-3-Long-Range-for-sale-in-Draper-UT-84020,,Available,
+5YJ3E1EBXRF729622,11767,2024,Tesla,Model 3,,,16660,Gray,Interior Color: Black,38990,https://drivecoolcars.com/vdp/24009776/Used-2024-Tesla-Model-3-for-sale-in-Draper-UT-84020,,Available,
+5YJSA1E21JF287101,11844,2018,Tesla,Model S,100D,,112215,Black,Interior Color: CREAM,29990,https://drivecoolcars.com/vdp/24265684/Used-2018-Tesla-Model-S-100D-for-sale-in-Draper-UT-84020,,Available,
+5YJXCBE26JF141668,11805,2018,Tesla,Model X,100D,,94607,White,Interior Color: CREAM,29990,https://drivecoolcars.com/vdp/24113307/Used-2018-Tesla-Model-X-100D-for-sale-in-Draper-UT-84020,,Available,
+7SAYGDEE2NF364734,11818,2022,Tesla,Model Y,Long Range,,85744,Gray,Interior Color: Black,27990,https://drivecoolcars.com/vdp/24157178/Used-2022-Tesla-Model-Y-Long-Range-for-sale-in-Draper-UT-84020,,Available,
+7SAYGDEE8PA078032,11369,2023,Tesla,Model Y,,,38096,White,Interior Color: Black,33490,https://drivecoolcars.com/vdp/22671416/Used-2023-Tesla-Model-Y-for-sale-in-Draper-UT-84020,,Available,
+7SAYGAEE3PF807152,11826,2023,Tesla,Model Y,Long Range AWD,,39926,Gray,Interior Color: Black,36990,https://drivecoolcars.com/vdp/24265693/Used-2023-Tesla-Model-Y-Long-Range-AWD-for-sale-in-Draper-UT-84020,,Available,
+7SAYGDEF5PF754352,11811,2023,Tesla,Model Y,Performance,,36277,Blue,Interior Color: Black,37990,https://drivecoolcars.com/vdp/24084523/Used-2023-Tesla-Model-Y-Performance-for-sale-in-Draper-UT-84020,,Available,
+7SAYGAEE8PF823539,11841,2023,Tesla,Model Y,Long Range AWD,,31427,White,Interior Color: Black,37990,https://drivecoolcars.com/vdp/24265688/Used-2023-Tesla-Model-Y-Long-Range-AWD-for-sale-in-Draper-UT-84020,,Available,
+7SAYGDEE7PF672095,11802,2023,Tesla,Model Y,Long Range,,37567,White,Interior Color: White,35490,https://drivecoolcars.com/vdp/24088489/Used-2023-Tesla-Model-Y-Long-Range-for-sale-in-Draper-UT-84020,,Available,
+7SAYGAEE5PF881866,11855,2023,Tesla,Model Y,Long Range AWD,,27742,Red,Interior Color: White,37990,https://drivecoolcars.com/vdp/24265692/Used-2023-Tesla-Model-Y-Long-Range-AWD-for-sale-in-Draper-UT-84020,,Available,
+7SAYGDEEXPF828856,11822,2023,Tesla,Model Y,Long Range,,47539,Gray,Interior Color: Black,34990,https://drivecoolcars.com/vdp/24206079/Used-2023-Tesla-Model-Y-Long-Range-for-sale-in-Draper-UT-84020,,Available,
+7SAYGDEE6PF813139,11804,2023,Tesla,Model Y,,,34734,Black,Interior Color: Black,35490,https://drivecoolcars.com/vdp/24080624/Used-2023-Tesla-Model-Y-for-sale-in-Draper-UT-84020,,Available,
+7SAYGAEE5PF908970,11835,2023,Tesla,Model Y,Long Range AWD,,30054,Gray,Interior Color: Black,37990,https://drivecoolcars.com/vdp/24265691/Used-2023-Tesla-Model-Y-Long-Range-AWD-for-sale-in-Draper-UT-84020,,Available,
+7SAYGAEE4RF155693,11836,2024,Tesla,Model Y,Long Range AWD,,34258,White,Interior Color: White,39990,https://drivecoolcars.com/vdp/24265690/Used-2024-Tesla-Model-Y-Long-Range-AWD-for-sale-in-Draper-UT-84020,,Available,
+7SAYGDEE8SA351897,11847,2025,Tesla,Model Y,Long Range,,28296,Gray,Interior Color: Black,40990,https://drivecoolcars.com/vdp/24274124/Used-2025-Tesla-Model-Y-Long-Range-for-sale-in-Draper-UT-84020,,Available,
+5YJ3E1EB0NF355774,NF355774,2022,Tesla,Model 3,Long Range Dual Motor All-Wheel Drive,,81528,Midnight Silver Metallic,Black,22999,https://pmrauto.com/vehicles/2022-tesla-model-3-3/,2026-09-17,Available,0
+5YJ3E1EB2MF872721,MF872721,2021,Tesla,Model 3,Long Range Dual Motor All-Wheel Drive,,105276,Pearl White Multi-Coat,Black,21999,https://pmrauto.com/vehicles/2021-tesla-model-3/,2026-09-17,Available,0
+7SAYGDEE5SF305883,SF305883,2025,Tesla,Model Y,Long Range Dual Motor All-Wheel Drive,,11736,Stealth Grey,White/Black,39999,https://pmrauto.com/vehicles/2025-tesla-model-y/,2026-09-17,Available,0
