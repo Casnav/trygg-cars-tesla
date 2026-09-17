@@ -5,12 +5,13 @@ import requests
 
 HOY = date.today().strftime("%Y-%m-%d")
 CSV_HISTORICO = "all_dealers.csv"
-WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwnH8RpzXEblRmWxpgemQZNb_dBG1-WdHM5tbvlJbLvl5hm1I7uvc9Fp07g7HDK-6A/exec"
+WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbyV7jNa09em0tOyQ1ZKHRlS2BxObrI-utEK2_sRS4aB_rNhBJWRwpKk9qpnegYl4BYW/exec"
 
 # ✅ CORREGIDO: Agregado days_in_stock a FIELDS
 FIELDS = [
     "vin", "stock_num", "year", "make", "model", "trim", "drive",
-    "odometer", "color_exterior", "color_interior", "sale_price", "url",
+    "odometer", "color_exterior", "color_interior", "sale_price",
+    "location_dealership", "url",
     "first_date_seen", "last_date_seen", "days_in_stock"
 ]
 
@@ -155,6 +156,7 @@ def sync_inventory_to_sheets(scraped_results):
     print(f"📊 Enviando {len(filas)} registros a Google Sheets...")
     try:
         response = requests.post(WEBHOOK_URL, json=filas, timeout=30)
+        print(f" Response of server: {response.text}")
         if response.status_code == 200:
             print(f"   ✓ Sincronización exitosa")
         else:

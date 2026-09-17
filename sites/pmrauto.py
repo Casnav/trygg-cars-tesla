@@ -250,6 +250,8 @@ def scrape(driver, writer, csv_file) -> list:
         vehicle["vin"]            = detail["vin"]
         vehicle["color_exterior"] = detail["color_exterior"]
         vehicle["color_interior"] = detail["color_interior"]
+        vehicle["drive"] = detail["drive"]
+        vehicle["location_dealership"] = detail["location_dealership"]
 
         # Write immediately — if program crashes, data is safe
         writer.writerow(vehicle)
