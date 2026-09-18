@@ -3,7 +3,7 @@ from datetime import date, datetime
 import os
 import requests
 
-HOY = date.today().strftime("%Y-%m-%d")
+HOY = date.today().strftime("%m-%d-%Y")
 CSV_HISTORICO = "all_dealers.csv"
 WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbyV7jNa09em0tOyQ1ZKHRlS2BxObrI-utEK2_sRS4aB_rNhBJWRwpKk9qpnegYl4BYW/exec"
 
@@ -12,7 +12,7 @@ FIELDS = [
     "vin", "stock_num", "year", "make", "model", "trim", "drive",
     "odometer", "color_exterior", "color_interior", "sale_price",
     "location_dealership", "url",
-    "first_date_seen", "last_date_seen", "days_in_stock"
+    "date_purchase", "date_sold", "days_in_stock"
 ]
 
 def calc_days(first_seen, last_seen):
@@ -57,8 +57,14 @@ def sync_inventory_to_sheets(scraped_results):
             reader = csv.DictReader(f)
             for row in reader:
                 vin = row.get("vin", "").strip()
-                if vin:
-                    historico[vin] = dict(row)
+                if not vin:
+                    continue
+                # Migración: nombres viejos → nuevos
+                if row.get("first_date_seen") and not row.get("date_purchase"):
+                    row["date_purchase"] = row["first_date_seen"]
+                if row.get("last_date_seen") and not row.get("date_sold"):
+                    row["date_sold"] = row["last_date_seen"]
+                historico[vin] = dict(row)
         print(f"   ✓ {len(historico)} registros cargados")
     else:
         print(f"   ℹ CSV no existe — primera corrida")
@@ -75,37 +81,43 @@ def sync_inventory_to_sheets(scraped_results):
 
     # ✅ PASO 2: ACTUALIZAR REGISTROS EXISTENTES
     print(f"📝 Actualizando registros...")
+    print(f"📝 Actualizando registros...")
     for vin, registro in historico.items():
+
+        # date_purchase NUNCA se actualiza; solo se rellena si viene vacío
+        if not registro.get("date_purchase", "").strip():
+            registro["date_purchase"] = HOY
+
         if vin in vins_scraped_hoy:
-            # VIN sigue activo — actualizar datos
+            # Sigue apareciendo → sigue en stock
             nuevo = vins_scraped_hoy[vin]
-            
-            # ✅ Actualizar solo si hay datos mejores
             if nuevo.get("sale_price"):
                 registro["sale_price"] = nuevo["sale_price"]
             if nuevo.get("odometer"):
                 registro["odometer"] = nuevo["odometer"]
             if nuevo.get("url"):
                 registro["url"] = nuevo["url"]
+            if nuevo.get("drive") and not registro.get("drive"):
+                registro["drive"] = nuevo["drive"]
+            if nuevo.get("location_dealership") and not registro.get("location_dealership"):
+                registro["location_dealership"] = nuevo["location_dealership"]
             if nuevo.get("color_exterior") and not registro.get("color_exterior"):
                 registro["color_exterior"] = nuevo["color_exterior"]
             if nuevo.get("color_interior") and not registro.get("color_interior"):
                 registro["color_interior"] = nuevo["color_interior"]
-            
-            # Marcar como disponible
-            registro["last_date_seen"] = "Available"
+
+            # En stock → date_sold en blanco
+            registro["date_sold"] = ""
             actualizados += 1
-        
         else:
-            # ✅ VIN NO apareció en scraper de hoy → SE VENDIÓ
-            if registro.get("last_date_seen", "").lower() in ("available", ""):
-                registro["last_date_seen"] = HOY
+            # Ya no aparece → vendido. Fecha SOLO si aún no la tiene.
+            if registro.get("date_sold", "").strip().lower() in ("available", ""):
+                registro["date_sold"] = HOY
                 vendidos += 1
 
-        # Calcular days_in_stock
         registro["days_in_stock"] = calc_days(
-            registro.get("first_date_seen", ""),
-            registro.get("last_date_seen", "")
+            registro.get("date_purchase", ""),
+            registro.get("date_sold", "")
         )
         inventario_actualizado.append(registro)
 
@@ -114,9 +126,9 @@ def sync_inventory_to_sheets(scraped_results):
     nuevos = 0
     for vin, auto in vins_scraped_hoy.items():
         if vin not in historico:
-            auto["first_date_seen"] = HOY
-            auto["last_date_seen"]  = "Available"
-            auto["days_in_stock"]   = "0"
+            auto["date_purchase"] = HOY
+            auto["date_sold"]     = ""      # en stock
+            auto["days_in_stock"] = "0"
             inventario_actualizado.append(auto)
             nuevos += 1
 
@@ -147,8 +159,8 @@ def sync_inventory_to_sheets(scraped_results):
             item.get("sale_price", ""),
             item.get("location_dealership", ""),
             item.get("url", ""),
-            item.get("first_date_seen", ""),
-            item.get("last_date_seen", ""),
+            item.get("date_purchase", ""),
+            item.get("date_sold", ""),
             item.get("days_in_stock", ""),
         ])
 
@@ -168,7 +180,7 @@ def sync_inventory_to_sheets(scraped_results):
     print(f"\n{'='*50}")
     print(f"RESUMEN DE CORRIDA ({HOY})")
     print(f"{'='*50}")
-    available = sum(1 for r in inventario_actualizado if r.get("last_date_seen", "").lower() == "available")
+    available = sum(1 for r in inventario_actualizado if not r.get("date_sold", "").strip())
     sold = len(inventario_actualizado) - available
     
     print(f"Total                 : {len(inventario_actualizado)}")
